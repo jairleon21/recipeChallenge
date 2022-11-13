@@ -4,7 +4,7 @@
 *::after{
     margin: 0
 }
-header{
+body{
     margin-left: 11px;
 }
 h1{
@@ -41,4 +41,108 @@ paramque quede en linea */
 #cake img{
     width: 100%;
     border-radius: 12px;
+}
+.details{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 20.75px;
+}
+.icon{
+    width: 13.54px;
+    height: 12.57px;
+}
+#fork,#servings{
+    color: #F2994A;
+}
+.description :nth-child(1){
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 10px;
+    color: #bdbdbd;
+}
+.description :nth-child(2){
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 10px;
+    line-height: 12px;
+    color: #333333;
+}
+.times{
+    margin-right: 42.29px;
+    display: flex; 
+    justify-content: space-between; 
+}
+.check{
+    display: flex;
+    gap: 8px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+ingredients{
+    color: #333333;
+}
+#ingredients h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 13px;
+}
+#ingredients h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 21.33px;
+    margin-bottom: 13px;
+}
+input{
+    border: solid 1px #828282;
+    width: 21px;
+    height: 21px;
+}
+.check p{
+    width: 321px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.check span{
+    font-weight: 700;
+}
+#Cheesecake h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 23.99px;
+    margin-bottom: 13px;
+    margin-top: 39px;
+}
+.instruction{
+    display: flex;
+    gap: 15px;
+}
+.instruction div{
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background-color: #F2994A;
+    border-radius: 6px;
+    color: white;
+}
+.pp{
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.instruction div p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px; 
 }

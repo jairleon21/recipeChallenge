@@ -1,39 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,
-    500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500
+    &family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>recipe Challenge</title>
 </head>
+
 <body>
-    <!-- <header>titulo 6puntos parrafo imagen</header>
-    <main>
-        <section>
-            <div>serving</div>
-            <div>ingredientes</div>
-        </section>
-        <section>instruciones</section>
-    </main>
-    <footer></footer> -->
     <header>
         <h1>Classic Cheesecake Recipe</h1>
         <div id="parrafo">
-        <img src="./assets/img/6dots.svg" alt="dots">
-        <p>Look no further for a creamy and ultra smooth 
-        classic cheesecake recipe! Paired with a buttery 
-        graham cracker crust, no one can deny its simple 
-        decadence. For the best results, bake in a water 
-        bath.</p>
+            <img src="./assets/img/6dots.svg" alt="dots">
+            <p>Look no further for a creamy and ultra smooth
+                classic cheesecake recipe! Paired with a buttery
+                graham cracker crust, no one can deny its simple
+                decadence. For the best results, bake in a water
+                bath.</p>
         </div>
-        <div id="cake"> 
+        <div id="cake">
             <img src="./assets/img/photo1.png" alt="">
         </div>
     </header>
+    <main>
+        <section>
+            <div class="servingTimes">
+                <div class="details">
+                    <div class="icon">
+                        <span class="material-symbols-outlined" id="fork">
+                            restaurant_menu
+                        </span>
+                    </div>
+                    <div class="description">
+                        <h3>YIELDS</h3>
+                        <h3 id="servings">12 servings</h3>
+                    </div>
+                </div>
+                <div class="times">
+                <div class="details">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            schedule
+                        </span>
+                    </div>
+                    <div class="description">
+                        <h3>PREP TIME</h3>
+                        <h3>45 minutes</h3>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            schedule
+                        </span>
+                    </div>
+                    <div class="description">
+                        <h3>COOK TIME</h3>
+                        <h3>1 hour</h3>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            schedule
+                        </span>
+                    </div>
+                    <div class="description">
+                        <h3>TOTAL TIME</h3>
+                        <h3>7,75 hours</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="ingredients">
+                <h2>Ingredients</h2>
+                <h3>Graham Cracker Crust</h3>
+                <div class="check">
+                    <input type="checkbox" name="firts" id="first">
+                    <p>1 and 1/2 cups (150g) <span>graham cracker crumbs</span> (about 10 full sheet graham crackers)</p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="second" id="second">
+                    <p>5 Tablespoons (70g) <span>unsalted butter, </span> melted</p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="third" id="third">
+                    <p>1/4 cup (50g) <span>granulated sugar</span></p>
+                </div>
+            </div>
+            <div id="Cheesecake">
+                <h2>Cheesecake</h2>
+                <div class="check">
+                    <input type="checkbox" name="firts" id="first">
+                    <p>four 8-ounce blocks (904g) full-fat <span>cream <br> cheese,</span> softened to room temperature</p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="second" id="second">
+                    <p>1 cup (200g) <span>granulated sugar </span></p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="third" id="third">
+                    <p>1 cup (240g) full-fat <span>sour cream,</span>at room temperature</p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="fourth" id="third">
+                    <p>1 teaspoon <span>pure vanilla extract</span></p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="fifth" id="third">
+                    <p>2 teaspoons <span>fresh lemon juice</span>(optional, but recommended)</p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="sixth" id="third">
+                    <p>3 large <span>eggs,</span>at room temperature</p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="seventh" id="third">
+                    <p> topping suggestions: <span>salted caramel, lemon <br> curd, strawberry topping, 
+                        chocolate <br> ganache, red wine chocolate ganache, <br> fresh fruit, whipped cream, or raspberry <br> sauce</span>
+                        (recipe in notes)</p>
+                </div>
+            </div>
+        </section>
+        <section id="instructions">
+            <h2>Instructions</h2>
+            <div class="instruction">
+                <div><p>1</p></div>
+                <p class="pp">Adjust the oven rack to the lower-middle position and preheat oven to 350°F (177°C).</p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
 </body>
+
 </html>
