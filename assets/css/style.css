@@ -133,16 +133,66 @@ input{
     border-radius: 6px;
     color: white;
 }
-.pp{
+.anchop{
     width: 300px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+     
 }
 .instruction div p{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px; 
+}
+section h2{
+    margin-top: 30px;
+    margin-bottom: 26px;
+}
+section span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.container1{
+    margin-bottom: 11px;
+}
+.container2{
+    margin-bottom: 35px;
+}
+.container3{
+    margin-bottom: 25px;
+}
+.container4{
+    margin-bottom: 27px;
+}
+.container5{
+    margin-bottom: 30px;
+}
+.container6{
+    margin-bottom: 46px;
+}
+.container7{
+    margin-bottom: 26px;
+}
+.final{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: #BDBDBD;
+    margin-bottom: 170px;
+    left: 11px;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    text-align: center;
+    color: #828282;
 }
